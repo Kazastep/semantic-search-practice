@@ -1,0 +1,35 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Сборка Python
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Переменные окружения и секреты
+.env
+.env.*
+!.env.example
+
+# Редакторы
+.idea/
+.vscode/
+
+# Временные файлы
+.cache/
+tmp/
+*.log
+*.tmp
+*~
